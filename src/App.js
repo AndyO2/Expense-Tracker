@@ -3,9 +3,14 @@ import NewExpense from "./components/NewExpense/NewExpense";
 import React, { useState } from "react";
 
 const DUMMY_EXPENSES = [
-  { title: "Car Insurance", amount: 294.67, date: new Date(2021, 2, 28) },
-  { title: "Toilet Paper", amount: 4.67, date: new Date(2024, 9, 2) },
-  { title: "New TV", amount: 24.67, date: new Date(2010, 5, 22) },
+  {
+    id: "e1",
+    title: "Car Insurance",
+    amount: 294.67,
+    date: new Date(2021, 2, 28),
+  },
+  { id: "e2", title: "Toilet Paper", amount: 4.67, date: new Date(2020, 9, 2) },
+  { id: "e3", title: "New TV", amount: 24.67, date: new Date(2021, 5, 22) },
 ];
 
 function App() {
